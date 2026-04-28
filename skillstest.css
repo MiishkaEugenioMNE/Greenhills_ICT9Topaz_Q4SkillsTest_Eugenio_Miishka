@@ -1,0 +1,52 @@
+body {
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-size: cover;
+}
+.nav-item:hover{
+    background-color: #ffffff5c;
+    border-radius: 50px;
+}
+.nav-link {
+    color: #000000;
+    font-size: larger;
+}
+.block {
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 700;
+    background-color: rgba(32, 32, 32, 0.141);
+}
+details {
+    text-align: center;
+}
+.container {
+    text-align: center;
+}
+nav {
+    background-color: rgba(255, 255, 255, 0)
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.247);
+    color: black;
+    border-radius: 15px;
+    padding: 10px 30px;
+    display: inline-block;
+    margin: 30px auto;
+    font-weight: bold;
+}
+.crypto {
+    background-color: rgba(255, 255, 255, 0.141);
+    border-radius: 15px;
+    padding: 20px;
+    color: black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+img {
+    width: 150px;
+    height: 150px;
+}

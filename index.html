@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="skillstest.js"></script>
+    <link rel="stylesheet" href="skillstest.css">
+</head>
+<body>  
+    <!--Login-->
+    <p class="text-center display-1" style="text-shadow: 2px 2px 4px #484848; margin-top: 50px;">Login Form</p>
+        <details ontoggle="console.log('Toggled!')"> 
+        <summary>More Info</summary>
+            <p>Username: Miishka Eugenio</p>
+            <p>Password: 121610</p>
+        </details>
+    <div class="row block-row justify-content-center">
+        <div class="col-md-3 m-2 block">
+            <form class="d-flex flex-column align-items-center gap-3">
+                <h6>Username:</h6>
+                <input type="text" id="Username" placeholder="Enter Username here" class="form-control w-25;">
+                <h6>Password:</h6>
+                <input type="password" id="Password" placeholder="Enter Password here" class="form-control w-25;">
+
+                <input type="button" onclick="Login()" value="Login" style="border-radius: 15px; margin-bottom: 10px; border: none; padding: 10px 20px; font-size: 16px; color: black;">
+
+                <a href="https://support.google.com/accounts/answer/7682439?hl=en" style="color: black;">Forgot Password?</a>
+            </form>
+        </div>
+    </div>
+    <div id="output" style="text-align: center; font-size: xx-large;"></div>
+</body>
+</html>
